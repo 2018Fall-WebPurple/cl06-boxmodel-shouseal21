@@ -1,0 +1,31 @@
+/*
+* Sarah Houseal
+* 12/6/18
+* Box Model
+*/
+
+/* The Universal Selector */
+
+* {
+    margin:0 px; padding:0 px;
+}
+
+/* Body Attributes Go Here */
+body {
+   border: 2px dotted red;
+}
+main {
+    border: 2px solid green;
+    padding: 20px 10px;
+    margin: 20px 20px;
+}
+h1 {
+    border: thin dashed red;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+p {
+    border: thin dashed green;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
